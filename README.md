@@ -21,31 +21,6 @@ Get material ngx-admin integrated with backend technology of your choice. [Check
 # Admin template based on Angular 10+ and <a href="https://github.com/akveo/nebular">Nebular</a>
 <a target="_blank" href="https://hubs.ly/H0n4Sw20"><img src="https://i.imgur.com/mFdqvgG.png"/></a>
 
-### Backend Integration Bundles
-Easy way to integrate ngx-admin with any backend (PHP, .Net, .Net Core, Java etc. )
-<a href="https://hubs.ly/H0qwyl60"><img src="https://i.imgur.com/qbtASmP.png"></a>
-
-[Check out our Store](https://hubs.ly/H0qwyl60) for ready to use Backend Bundles.
-
-### Free Bundles
-<a href="https://hubs.ly/H0rD0XL0"><img src="https://i.imgur.com/NzTDxRG.png"></a>
-
-[Download ngx-admin with .net backend for FREE!](https://hubs.ly/H0rvhPL0)
-
-### With 6 stunning visual themes
-
-| <a target="_blank" href="https://hubs.ly/H0nxM3b0"><img src="https://i.imgur.com/67YAlhf.png"/></a> | <a target="_blank" href="https://hubs.ly/H0nxNmv0"><img src="https://i.imgur.com/aQzw0hD.png"/></a> |
-| --- | --- |
-|  Material Dark | Material Light |
-
-| <a target="_blank" href="https://hubs.ly/H0n4Th20"><img src="https://i.imgur.com/9UkTGgr.png"/></a> | <a target="_blank" href="https://hubs.ly/H0n4Tgv0"><img src="https://i.imgur.com/Kn3xDKQ.png"/></a> |
-| --- | --- |
-|  Dark| Default |
-
-| <a target="_blank" href="https://hubs.ly/H0n4Tj80"><img src="https://i.imgur.com/iJu2YDF.png"/></a> | <a target="_blank" href="https://hubs.ly/H0n4TDQ0"><img src="https://i.imgur.com/GpUt6NW.png"/></a> |
-| --- | --- |
-| Cosmic  | Corporate |
-
 ### What's included:
 
 - Angular 10+ & Typescript
