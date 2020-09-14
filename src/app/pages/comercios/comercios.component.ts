@@ -2,9 +2,15 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'ngx-comercios-elements',
-  template: `
-    <h1>Comercios component</h1>
-  `,
+  templateUrl: 'comercios.component.html',
+  styleUrls: ['comercios.component.scss']
 })
 export class ComerciosComponent {
+
+    fruits: string[] = [
+        'il Tano - Pizzas',
+        'Pollería - Don Torcuato',
+        'Heladería - Iglú'
+    ];
+
 }

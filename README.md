@@ -35,10 +35,11 @@ Get material ngx-admin integrated with backend technology of your choice. [Check
 
 ### Demo
 
-<a target="_blank" href="https://hubs.ly/H0n4Tk70">Live Demo</a>
+<a target="_blank" href="https://www.akveo.com/ngx-admin/pages/dashboard">Demo</a>
 
-## Documentation
-This template is using [Nebular](https://github.com/akveo/nebular) modules set, [here you can find documentation and other useful articles](https://hubs.ly/H0n4ZPt0).
+## Documentación
+[Nebular](https://github.com/akveo/nebular)
+[Docs de Nebular](https://akveo.github.io/nebular/docs).
 
 ### Empty starter kit
 Don't need all the pages and modules and just looking for an empty starter kit for your next project? Check out our [starter-kit branch](https://github.com/akveo/ngx-admin/tree/starter-kit).
