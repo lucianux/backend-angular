@@ -9,6 +9,7 @@ import { AgregarModule } from './agregar/agregar.module';
 import { ECommerceModule } from './e-commerce/e-commerce.module';
 import { PagesRoutingModule } from './pages-routing.module';
 import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
+import { EditarModule } from './editar/editar.module';
 
 @NgModule({
   imports: [
@@ -18,6 +19,7 @@ import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
     DashboardModule,
     ComerciosModule,
     AgregarModule,
+    EditarModule,
     ECommerceModule,
     MiscellaneousModule,
   ],

@@ -6,7 +6,9 @@
         <nb-card-body>
           <nb-list>
             <nb-list-item *ngFor="let fruit of fruits">
-              {{ fruit }}
+              <span>{{ fruit }}</span>
+              <button nbButton status="danger" class="leftSpace">Borrar</button>
+              <button nbButton status="success" class="leftSpace" (click)="goToEditar()">Editar</button>
             </nb-list-item>
           </nb-list>
         </nb-card-body>
