@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'ngx-comercios-elements',
@@ -12,5 +13,12 @@ export class ComerciosComponent {
         'Pollería - Don Torcuato',
         'Heladería - Iglú'
     ];
+
+    constructor(private router: Router) { }
+
+    public goToAgregar()
+    {
+      this.router.navigate(['/pages/agregar']);
+    }
 
 }

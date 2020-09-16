@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { ComerciosComponent } from './comercios.component';
+import { AgregarComponent } from './agregar.component';
 import { CommonModule } from '@angular/common';
 import {
     NbCardModule,
@@ -15,7 +15,7 @@ import {
         CommonModule
     ],
     declarations: [
-        ComerciosComponent
+        AgregarComponent
     ]
 })
-export class ComerciosModule { }
+export class AgregarModule { }
