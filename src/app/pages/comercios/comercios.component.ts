@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { ComercioService } from '../../services/comercio.service';
 
 @Component({
   selector: 'ngx-comercios-elements',
   templateUrl: 'comercios.component.html',
-  styleUrls: ['comercios.component.scss']
+  styleUrls: ['comercios.component.scss'],
+  providers: [ ComercioService ]
 })
 export class ComerciosComponent {
 
@@ -14,7 +16,12 @@ export class ComerciosComponent {
         'Heladería - Iglú'
     ];
 
-    constructor(private router: Router) { }
+    constructor(
+      private router: Router,
+      private comercioSer: ComercioService)
+    {
+      this.fruits = this.comercioSer.obtenerComercios();
+    }
 
     public goToAgregar()
     {
@@ -25,5 +32,4 @@ export class ComerciosComponent {
     {
       this.router.navigate(['/pages/editar']);
     }
-
 }
