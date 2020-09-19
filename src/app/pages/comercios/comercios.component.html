@@ -5,8 +5,8 @@
         <nb-card-header>Lista de comercios <button nbButton status="info" class="leftSpace" (click)="goToAgregar()">Agregar</button></nb-card-header>
         <nb-card-body>
           <nb-list>
-            <nb-list-item *ngFor="let fruit of fruits">
-              <span>{{ fruit }}</span>
+            <nb-list-item *ngFor="let comercio of comercios">
+              <span>{{ comercio.nombre }}</span>
               <button nbButton status="danger" class="leftSpace">Borrar</button>
               <button nbButton status="success" class="leftSpace" (click)="goToEditar()">Editar</button>
             </nb-list-item>
