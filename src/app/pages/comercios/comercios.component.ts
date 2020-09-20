@@ -26,6 +26,12 @@ export class ComerciosComponent {
     );
   }
 
+  public eliminarComercio(comercioAeliminar: Comercio) {
+    //console.log("Eliminando " + comercio);
+    this.comercioSer.eliminarComercio(comercioAeliminar);
+    this.router.navigate(['/pages/comercios']);
+  }
+
   public goToAgregar() {
     this.router.navigate(['/pages/agregar']);
   }

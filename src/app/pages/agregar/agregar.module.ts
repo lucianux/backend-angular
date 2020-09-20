@@ -6,13 +6,15 @@ import {
     NbListModule,
     NbButtonModule
 } from '@nebular/theme';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
     imports: [
         NbCardModule,
         NbListModule,
         NbButtonModule,
-        CommonModule
+        CommonModule,
+        FormsModule
     ],
     declarations: [
         AgregarComponent

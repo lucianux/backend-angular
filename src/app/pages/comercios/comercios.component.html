@@ -7,7 +7,7 @@
           <nb-list>
             <nb-list-item *ngFor="let comercio of comercios">
               <span>{{ comercio.nombre }}</span>
-              <button nbButton status="danger" class="leftSpace">Borrar</button>
+              <button nbButton status="danger" class="leftSpace" (click)="eliminarComercio(comercio)">Borrar</button>
               <button nbButton status="success" class="leftSpace" (click)="goToEditar()">Editar</button>
             </nb-list-item>
           </nb-list>

@@ -49,4 +49,10 @@ export class ComercioService {
     public agregarComercio(comercio: string) {
         this.comercios_string.push(comercio);
     }
+
+    public eliminarComercio(comercio: Comercio) {
+        var borrarComercio: AngularFirestoreDocument;
+        borrarComercio = this.afs.doc<Comercio>(`comercios/${comercio.id}`);
+        borrarComercio.delete();
+    }
 }
