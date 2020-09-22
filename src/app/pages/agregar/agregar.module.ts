@@ -4,17 +4,24 @@ import { CommonModule } from '@angular/common';
 import {
     NbCardModule,
     NbListModule,
-    NbButtonModule
+    NbInputModule,
+    NbButtonModule,
+    NbSelectModule
 } from '@nebular/theme';
-import { FormsModule } from '@angular/forms';
+//import { FormsModule } from '@angular/forms';
+import { ThemeModule } from '../../@theme/theme.module';
+import { FormsModule as ngFormsModule } from '@angular/forms';
 
 @NgModule({
     imports: [
+        ThemeModule,
         NbCardModule,
         NbListModule,
+        NbInputModule,
         NbButtonModule,
+        NbSelectModule,
         CommonModule,
-        FormsModule
+        ngFormsModule
     ],
     declarations: [
         AgregarComponent
