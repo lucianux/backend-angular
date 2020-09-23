@@ -10,7 +10,7 @@
               <input
                 nbInput
                 fullWidth
-                type="email"
+                type="text"
                 id="nameCommerce"
                 name="nameCommerce"
                 placeholder="Nombre"
@@ -46,7 +46,7 @@
           <div class="form-group row">
             <label for="category" class="label col-sm-3 form-control-label">Categoría</label>
             <div class="col-sm-9">
-              <nb-select [(ngModel)]="comercioFormulario.tipo" selected="pizzas">
+              <nb-select [(ngModel)]="comercioFormulario.tipo" id="category" name="category">
                 <nb-option value="pizzas">Pizzas y Empanadas</nb-option>
                 <nb-option value="heladerias">Heladerías</nb-option>
                 <nb-option value="pollos">Pollos</nb-option>

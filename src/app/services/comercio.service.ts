@@ -46,6 +46,12 @@ export class ComercioService {
         return this.comercios;
     }
 
+    public obtenerComercio(uid: string): Observable<firebase.firestore.DocumentData> {
+        var comercioDoc: AngularFirestoreDocument;
+        comercioDoc = this.afs.doc<Comercio>(`comercios/${uid}`);
+        return comercioDoc.valueChanges();
+    }
+
     public agregarComercio(comercio: string) {
         this.comercios_string.push(comercio);
     }

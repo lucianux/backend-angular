@@ -4,15 +4,23 @@ import { CommonModule } from '@angular/common';
 import {
     NbCardModule,
     NbListModule,
-    NbButtonModule
+    NbButtonModule,
+    NbInputModule,
+    NbSelectModule
 } from '@nebular/theme';
+import { ThemeModule } from '../../@theme/theme.module';
+import { FormsModule as ngFormsModule } from '@angular/forms';
 
 @NgModule({
     imports: [
+        ThemeModule,
         NbCardModule,
         NbListModule,
         NbButtonModule,
-        CommonModule
+        NbInputModule,
+        NbSelectModule,
+        CommonModule,
+        ngFormsModule
     ],
     declarations: [
         EditarComponent

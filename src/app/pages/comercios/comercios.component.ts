@@ -36,7 +36,7 @@ export class ComerciosComponent {
     this.router.navigate(['/pages/agregar']);
   }
 
-  public goToEditar() {
-    this.router.navigate(['/pages/editar']);
+  public goToEditar(comercioAactualizar: Comercio) {
+    this.router.navigate(['/pages/editar', comercioAactualizar.id]);
   }
 }

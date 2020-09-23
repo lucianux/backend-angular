@@ -13,7 +13,7 @@ export class AgregarComponent {
     nombre: '',
     direccion: '',
     telefono: '',
-    tipo: ''
+    tipo: 'pizzas'
   }
 
   constructor(

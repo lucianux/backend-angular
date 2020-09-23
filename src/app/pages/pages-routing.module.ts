@@ -14,7 +14,7 @@ const routes: Routes = [{
   component: PagesComponent,
   children: [
     {
-      path: 'editar',
+      path: 'editar/:uid',
       component: EditarComponent
     },
     {
